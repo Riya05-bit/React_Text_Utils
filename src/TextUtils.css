@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Kalnia+Glaze:wght@100..700&family=Teko:wght@300..700&display=swap');
+
+*::selection {
+    background-color: #000;
+    caret-color: red;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    margin: 0;
+    /* background-image: url('https://media.istockphoto.com/id/1132176953/photo/translucent-thick-smoke-illuminated-by-light-against-a-dark-background-divided-into-three.jpg?s=612x612&w=0&k=20&c=TW5tjPgWZdL5hWr6UmlPErjc1rONhvrFv-wLCfS1u-4='); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(0.2vw);
+}
+
+#txt1 {
+    background: rgba(0, 0, 0, 0.8);
+    text-shadow: 5px 5px 5px #000;
+    width: 70vw;
+    height: 30vh;
+    backdrop-filter: blur(0.2vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+textarea {
+    font-size: 2vw;
+    font-family: "Kalnia Glaze", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.btn {
+    padding:.9vw 1.5vw;
+    border: none;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    left: 17vw;
+    border-radius: 1vw;
+    overflow: hidden;
+    background:black;
+    backdrop-filter:blur(8px);
+    margin: 1vw;
+}
+.btn:hover{
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #ff00cb, #ff0000);
+    color: #000;
+}
